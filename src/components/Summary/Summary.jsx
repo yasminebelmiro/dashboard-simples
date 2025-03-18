@@ -5,7 +5,7 @@ const Summary = ({ ...props }) => {
   return (
     <SummaryContainer>
       <p>{props.text} </p>
-      <h1>{props.amountValue} </h1>
+      <h1>{`R$ ${props.amountValue}`} </h1>
     </SummaryContainer>
   );
 };

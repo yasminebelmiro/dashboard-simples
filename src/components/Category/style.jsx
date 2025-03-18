@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const CategoryContainer = styled.div`
-  width: 50%;
+
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-contentç center;
+
   border-left: 5px solid var(--purple-200);
   padding: 0 20px;
 `;

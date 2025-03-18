@@ -7,7 +7,7 @@ const Category = ({ icon, text, amountValue }) => {
       <Icon as={icon} />
       <Row>
         <p>{text}</p>
-        <h1>{amountValue}</h1>
+        <h3>{amountValue}</h3>
       </Row>
     </CategoryContainer>
   );
